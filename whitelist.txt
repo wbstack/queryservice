@@ -80,3 +80,4 @@ https://ld.geo.admin.ch/query
 http://lod.openaire.eu/sparql
 http://publications.europa.eu/webapi/rdf/sparql
 http://linkeddata.uriburner.com/sparql
+https://sparql.nextprot.org/
