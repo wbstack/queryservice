@@ -1,5 +1,7 @@
 FROM wikibase/wdqs:0.3.6
 
+LABEL org.opencontainers.image.source="https://github.com/wbstack/queryservice"
+
 COPY ./entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
