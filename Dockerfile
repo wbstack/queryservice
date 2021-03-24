@@ -1,4 +1,4 @@
-FROM wikibase/wdqs:0.3.6
+FROM wikibase/wdqs:0.3.40
 
 LABEL org.opencontainers.image.source="https://github.com/wbstack/queryservice"
 
