@@ -4,7 +4,7 @@ ARG VERSION
 
 LABEL org.opencontainers.image.source="https://github.com/wbstack/queryservice"
 
-ENV USER_AGENT="Wikibase.Cloud Query Service ($VERSION); https://wikibase.cloud/"
+ENV USER_AGENT="Wikibase.Cloud Query Service ($VERSION); https://github.com/wbstack/queryservice"
 
 COPY ./entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
