@@ -1,42 +1,38 @@
 # queryservice
 
 ## 0.3.135-wbstack.8 - April 10, 2026
-Merged all of the GitHub Action Dependabot updates 
+- Merged all of the GitHub Action Dependabot updates 
 
 ## 0.3.135-wbstack.7 - Jun 18, 2025
-add User-Agent env var (#150)
+- add User-Agent env var (#150)
 
 ## 0.3.135-wbstack.6 - Oct 24, 2024
 
-Add allowlist at container runtime (#149)
+- Add allowlist at container runtime (#149)
 
 ## 0.3.135-wbstack.5 - Sep 23, 2024
-Update allowlist.txt to include wikibase cloud wikis (#148)
+- Update allowlist.txt to include wikibase cloud wikis (#148)
 
-Also update the static list from the Wikidata queryservice
-
-Bug: T364449
-
-Bug: T375375
+- Also update the static list from the Wikidata queryservice
 
 ## 0.3.135-wbstack.4 - Apr 24, 2024
-Merge pull request #122 from wbstack/tarrow-patch-1
+- Merge pull request #122 from wbstack/tarrow-patch-1
 
 gh-actions: move to docker/metadata-action
 
 ## 0.3.135-wbstack.3 - Apr 18, 2024
-Merge pull request #113 from egonw/patch-1
+- Merge pull request #113 from egonw/patch-1
 
-Updated the URL of the WikiPathways SPARQL endpoint
+- Updated the URL of the WikiPathways SPARQL endpoint
 
 ## 0.3.135-wbstack.2 - Apr 17, 2024 
-fix: whitelist.txt is superseded by allowlist.txt (#111)
+- fix: whitelist.txt is superseded by allowlist.txt (#111)
 
 ## 0.3.137-wbstack.1 - Apr 16, 2024 
-chore: update base image to wmde.20 (#109)
+- chore: update base image to wmde.20 (#109)
 
 ## 0.3.135-wbstack.1 - Apr 4, 2024
-chore: update base image to latest version known to work with mw 1.39 (#108)
+- chore: update base image to latest version known to work with mw 1.39 (#108)
 
 ## November 2020
 
