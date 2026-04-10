@@ -26,7 +26,7 @@
 ## 0.3.135-wbstack.4 - Apr 24, 2024
 - Merge pull request #122 from wbstack/tarrow-patch-1
 
-gh-actions: move to docker/metadata-action
+- gh-actions: move to docker/metadata-action
 
 ## 0.3.135-wbstack.3 - Apr 18, 2024
 - Merge pull request #113 from egonw/patch-1
