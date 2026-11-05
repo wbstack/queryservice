@@ -3,7 +3,8 @@ FROM wikibase/wdqs:$VERSION
 ARG VERSION
 
 # Stopgap as upstream is non-root but our volume is root-owned (see T443565)
-USER root
+# hadolint ignore=DL3002
+USER 0
 
 LABEL org.opencontainers.image.source="https://github.com/wbstack/queryservice"
 
