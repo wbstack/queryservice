@@ -1,6 +1,10 @@
-ARG VERSION=0.3.135-wmde.13
+ARG VERSION=wdqs0.3.165
 FROM wikibase/wdqs:$VERSION
 ARG VERSION
+
+# Stopgap as upstream is non-root but our volume is root-owned (see T443565)
+# hadolint ignore=DL3002
+USER 0
 
 LABEL org.opencontainers.image.source="https://github.com/wbstack/queryservice"
 
